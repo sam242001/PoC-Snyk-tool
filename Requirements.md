@@ -16,6 +16,7 @@ Node.js is vereist voor het gebruik van de Snyk CLI.
 In Powershell voer uit als administrator het volgende:
 - node -v
 - npm -v
+
 Als versienummer wordt getoond is Node goed geïnstalleerd.
 
 *Als npm -v niet werkt in Powershell, voer het volgende uit en dan npm -v:
