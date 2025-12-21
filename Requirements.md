@@ -20,5 +20,6 @@ In Powershell voer uit als administrator het volgende:
 Als versienummer wordt getoond is Node goed geïnstalleerd.
 
 *Indien npm -v niet werkt in Powershell:
+
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser*
 
