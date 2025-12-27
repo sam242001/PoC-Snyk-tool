@@ -11,6 +11,8 @@ Node.js is vereist voor het gebruik van de Snyk CLI.
 ### Installatie:
 - Ga naar: https://nodejs.org/en/download
 - Download en installeer de prebuilt Node.js.
+- Open de bestand in Downloads map
+- Volg de stappen in de wizard
 
 ### Controleer installatie:
 In Powershell voer uit als administrator het volgende:
