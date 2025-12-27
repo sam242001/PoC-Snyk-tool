@@ -20,12 +20,12 @@ De PoC ondersteunt huisartsenpraktijken bij het verbeteren van hun digitale weer
 
 ## Aan de slag
 
-Voor installatie- en gebruiksinstructies, zie:
+Lees eerst de vereisten:
 
-docs/stappenplan_snyk_tool.md
+-> Requirements.md
 
+Volg daarna het stappenplan:
 
-De vereisten voor dit project zijn beschreven in:
+-> docs/stappenplan_snyk_tool.md
 
-Requirements.txt
 
