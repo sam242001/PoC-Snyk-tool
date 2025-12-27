@@ -6,7 +6,7 @@ Dit stappenplan beschrijft hoe het Python sccript de Snyk tool installeert, kopp
 
 1. Ga naar:
 
-  https://app.snyk.io/login en log in op je Snyk account.
+- https://app.snyk.io/login en log in op je Snyk account.
 
 2. Ga naar:
 
@@ -18,10 +18,10 @@ Dit stappenplan beschrijft hoe het Python sccript de Snyk tool installeert, kopp
 
 Open PowerShell in de map waar het script staat en voer uit met het volgende commando:
 
-python snyk_installer.py --token <JOUW_TOKEN>
+**python snyk_installer.py --token <JOUW_TOKEN>**
 
 Het script voert automatisch uit:
-- installatie van Snyk tool
+- Installatie van Snyk tool
 - Verifiëren van verbinding met je Snyk account
 
 Als het script succesvol is afgerond is Snyk klaar voor gebruik.
@@ -30,7 +30,7 @@ Als het script succesvol is afgerond is Snyk klaar voor gebruik.
 
 Na het uitvoeren van de Python script in PowerShell voer uit:
 
-snyk code test
+**snyk code test**
 
 Hiermee worden kwetsbaarheden gedetecteerd. Indien kwetsbaarheden worden gevonden worden ze in de terminal getoond.
 
@@ -40,7 +40,7 @@ Om de kwetsbaarheden in een dashboard te tonen moet hiervoor een project worden 
 
 Voer uit:
 
-snyk monitor
+**snyk monitor**
 
 Dit uploadt de scan naar je Snyk account en maakt automatisch een project in het webdashboard.
 
