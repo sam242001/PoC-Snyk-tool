@@ -39,11 +39,14 @@ Volg daarna het stappenplan:
 ## Troubleshooting
 
 - **PermissionError bij installatie van Snyk:**
+
   Zorg dat Powershell als Administrator geopend is. Het script moet draaien in een map waar je schrijfrechten hebt.
 
 - **Geen projecten gevonden:**
+
   Controleer of je projectbestanden aanwezig zijn in de map die wordt gescand.
 
 - **npm niet gevonden:**
+
   Voer uit het volgende; Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
