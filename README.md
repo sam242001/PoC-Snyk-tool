@@ -20,12 +20,30 @@ De PoC ondersteunt huisartsenpraktijken bij het verbeteren van hun digitale weer
 
 ## Aan de slag
 
+#### Compatibiliteit
+
+Het script ondersteunt de volgende platforms:
+
+- Windows
+- Linux
+- macOS
+  
 Lees eerst de vereisten:
 
 -> Requirements.md
-
+  
 Volg daarna het stappenplan:
 
 -> docs/stappenplan_snyk_tool.md
 
+## Troubleshooting
+
+- **PermissionError bij installatie van Snyk:**
+  Zorg dat Powershell als Administrator geopend is. Het script moet draaien in een map waar je schrijfrechten hebt.
+
+- **Geen projecten gevonden:**
+  Controleer of je projectbestanden aanwezig zijn in de map die wordt gescand.
+
+- **npm niet gevonden:**
+  Voer uit het volgende; Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
