@@ -35,6 +35,7 @@ Het script voert automatisch uit:
 - Installatie van Snyk tool
 - Verifiëren van verbinding met je Snyk account
 - Scannen van kwetsbaarheden
+- Tonen van kwetsbaarheden in Dashboard
 
 ## Stap 3: Resultaten bekijken in Dashboard
 
