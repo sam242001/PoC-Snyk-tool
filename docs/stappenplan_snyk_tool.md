@@ -31,9 +31,14 @@ Het script geeft twee opties:
 
 1. Het installeren van Snyk tool en scan uit voeren
 
+![Python_script_optie1(1)](Images/Python_script_optie1(1).png)
+
+![Python_script_optie1(2)](Images/Python_script_optie1(2).png)
 
 2. Scan uitvoeren nadat Snyk al geïnstalleerd is
- 
+
+![Python_script_optie2](Images/Python_script_optie2.png)
+
 Het script voert automatisch uit:
 
 - Installatie van Snyk tool
@@ -45,12 +50,21 @@ Het script voert automatisch uit:
 
 1. Ga naar je Snyk account
 2. Open het aangemaakte project
+
+![Projecten](Images/Projecten.png)
+
+![Dashboard](Images/Dashboard.png)
+
 3. Hier zie je:
    - Kwetsbaarheden
    - Severity (Low / Medium / High / Critical)
    - Versiebeheer van risico's
    - Waar het risico plaatsvindt
    - Mogelijke fixes (oplossingen)
+ 
+![Kwetsbaarheden](Images/Kwetsbaarheden.png)
+
+![Voorbeeld_kwetsbaarheid](Images/Voorbeeld_kwetsbaarheid.png)
 
 
 
