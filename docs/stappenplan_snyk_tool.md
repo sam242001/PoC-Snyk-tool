@@ -21,13 +21,17 @@ Dit stappenplan beschrijft hoe het Python script de Snyk tool installeert, koppe
 
 ## Stap 2: Python Script uitvoeren
 
-Open PowerShell in de map waar het script staat en voer uit met het volgende commando:
+Open PowerShell als Administrator en voer het Python script uit met het volgende commando:
 
-**python snyk_installer.py --token <JOUW_TOKEN>**
+**python [/pad/naar/script/]snyk_installer.py --token <JOUW_TOKEN>**
+
+**Let op:** Het script moet worden uitgevoerd vanuit een map op de schijf waar je schrijfrechten hebt als Administrator. Open daarom Powershell als Administrator voordat je het script start.
 
 Het script geeft twee opties:
 
 1. Het installeren van Snyk tool en scan uit voeren
+
+
 2. Scan uitvoeren nadat Snyk al geïnstalleerd is
  
 Het script voert automatisch uit:
