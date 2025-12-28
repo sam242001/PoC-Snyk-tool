@@ -23,7 +23,7 @@ Open PowerShell in de map waar het script staat en voer uit met het volgende com
 Het script geeft twee opties:
 
 1. Het installeren van Snyk tool en scan uit voeren
-2. Scan uitvoeren nadat SNyk al geïnstalleerd is
+2. Scan uitvoeren nadat Snyk al geïnstalleerd is
  
 Het script voert automatisch uit:
 
