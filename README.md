@@ -32,11 +32,11 @@ Het werkt niet als een antivirus en scant geen willekeurige bestanden.
 
 Ondersteunde projectbestanden:
 
-package.json (Node.js)
-requirements.txt, Pipfile.lock, poetry.lock (Python)
-composer.json (PHP)
-pom.xml, build.gradle (Java)
-Dockerfile (Docker)
+- `package.json` (Node.js)
+- `requirements.txt`, `Pipfile.lock`, `poetry.lock` (Python)
+- `composer.json` (PHP)
+- `pom.xml`, `build.gradle` (Java)
+- `Dockerfile` (Docker)
 
 ## Waarom dit project nuttig is
 
@@ -69,52 +69,80 @@ Screenshots en voorbeelden staan in:
 
 ### Linux
 
--/home
--/root
--/opt
--/var/www
+- `/home`
+- `/root`
+- `/opt`
+- `/var/www`
 
 ### macOS
 
-- /Users
+- `/Users`
 
 ### Windows
 
-- C:\
+- `C:\`
 
 ### Uitgesloten directories
 
 Om fouten en performance issues te voorkomen:
 
-- /proc
-- /sys
-- /dev
-- /run
-- /tmp
-- /snap
-- /usr/lib
-- /usr/share
+- `/proc`
+- `/sys`
+- `/dev`
+- `/run`
+- `/tmp`
+- `/snap`
+- `/usr/lib`
+- `/usr/share`
 
 ## Functionaliteit
+
 - Automatische OS-detectie
 - Installatie van de juiste Snyk CLI versie
 - Werkt op Windows, Linux en macOS
 - System-wide scan (niet alleen current directory)
 - Detecteert alleen echte Snyk-projecten
-- Voorkomt onnodige Snyk errors (SNYK-CLI-0000)
+- Voorkomt onnodige Snyk errors (`SNYK-CLI-0000`)
 - Projecten verschijnen automatisch in het Snyk Dashboard
+
+## Testen
+
+Voorbeeldtest:
+
+```bash
+mkdir snyk-test
+cd snyk-test
+npm init -y
+npm install lodash@4.17.15
+```
+Het project verschijnt vervolgens in het Snyk Dashboard.
 
 ## Troubleshooting
 
-- **PermissionError bij installatie van Snyk:**
+- **PermissionError bij installatie**
 
   Zorg dat Powershell als Administrator geopend is. Het script moet draaien in een map waar je schrijfrechten hebt.
 
-- **Geen projecten gevonden:**
+- **Geen projecten gevonden**
 
   Controleer of je projectbestanden aanwezig zijn in de map die wordt gescand.
 
-- **npm niet gevonden:**
+- **npm niet gevonden (Windows)**
 
-  Voer uit het volgende; Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+  Voer uit het:
+```bash
+  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+## Security
+
+Zet je Snyk token nooit in GitHub repositories.
+Gebruik environment variables of secrets.
+
+## Licentie
+
+MIT License
+
+## Credits
+- https://snyk.io
 
