@@ -134,19 +134,19 @@ Het project verschijnt vervolgens in het Snyk Dashboard.
 
 Download de Python Script:
 
-Zie snyk-installer.py
+`Zie snyk-installer.py`
 
 Lees de vereisten:
 
-Zie Requirements.md
+`Zie Requirements.md`
   
 Volg daarna het stappenplan:
 
-Zie docs/stappenplan_snyk_tool.md
+`Zie docs/stappenplan_snyk_tool.md`
 
 Screenshots en voorbeelden staan in:
 
-Zie docs/images/
+`Zie docs/images/`
 
 ## Licentie
 
