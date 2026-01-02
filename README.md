@@ -1,6 +1,6 @@
 # PoC Snyk Installer & System-Wide Scanner - Supply Chain Security
 
-Dit project is een Proof of Concept voor de automatische installeren en gebruiken van de Snyk tool om kwetsbaarheden in de software supply chain van huisartsenpraktijken te detecteren.
+Dit project is een Proof of Concept voor het automatisch installeren en gebruiken van de Snyk tool om kwetsbaarheden in de software supply chain van huisartsenpraktijken te detecteren.
 
 De PoC richt zich op:
 
@@ -40,7 +40,10 @@ Ondersteunde projectbestanden:
 
 ## Waarom dit project nuttig is
 
-Huisartsenpraktijken werken met gevoelige patiëntgegevens en zijn afhankelijk van verschillende softwarecomponenten. Kwetsbaarheden in deze software supply chain kunnen leiden tot datalekken of verstoringen van zorgprocessen. Dit project is nuttige omdat het kwetsbaarheden in eigen broncode detecteert en het eenvoudig te integreren is in bestaande ontwikkel- beheerprocessen.
+Huisartsenpraktijken werken met gevoelige patiëntgegevens en zijn afhankelijk van verschillende softwarecomponenten. Kwetsbaarheden in deze software supply chain kunnen leiden tot datalekken of verstoringen van zorgprocessen. 
+
+Dit project is nuttig omdat het kwetsbaarheden in eigen broncode detecteert, dependencies helpt detecteren en het eenvoudig te integreren is in bestaande ontwikkel- en beheerprocessen. Daarnaast maakt de geautomatiseerde installatie van Snyk het mogelijk om de tool ook in te zetten binnen organisaties met weinig tot geen IT-expertise. 
+
 De PoC ondersteunt huisartsenpraktijken bij het verbeteren van hun digitale weerbaarheid.
 
 ## Compatibiliteit
@@ -52,6 +55,8 @@ Het script ondersteunt de volgende platforms:
 - macOS
 
 ## Wat wordt gescand
+
+De scanner doorzoekt deze locaties op bestanden die door Snyk worden ondersteund.
 
 ### Linux
 
@@ -115,29 +120,33 @@ Het project verschijnt vervolgens in het Snyk Dashboard.
 
 - **npm niet gevonden (Windows)**
 
-  Voer uit het:
+  Voer uit volgende commando uit:
 ```bash
   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 ## Security
 
-Zet je Snyk token nooit in GitHub repositories.
-Gebruik environment variables of secrets.
+- Zet je Snyk token nooit in GitHub repositories.
+- Gebruik environment variables of secrets.
 
 ## Aan de slag
 
-Lees eerst de vereisten:
+Download de Python Script:
 
--> Requirements.md
+Zie snyk-installer.py
+
+Lees de vereisten:
+
+Zie Requirements.md
   
 Volg daarna het stappenplan:
 
--> docs/stappenplan_snyk_tool.md
+Zie docs/stappenplan_snyk_tool.md
 
 Screenshots en voorbeelden staan in:
 
--> docs/images/
+Zie docs/images/
 
 ## Licentie
 
