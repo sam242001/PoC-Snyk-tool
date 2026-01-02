@@ -25,7 +25,7 @@ De tool detecteert kwetsbaarheden in:
 - Applicatiecode
 - Docker en containeromgevingen
 
-## Hoe Snyk werkt (belangrijk)
+## Hoe Snyk werkt
 
 Snyk scant alleen dependency-managed projecten.
 Het werkt niet als een antivirus en scant geen willekeurige bestanden.
