@@ -51,20 +51,6 @@ Het script ondersteunt de volgende platforms:
 - Linux
 - macOS
 
-## Aan de slag
-
-Lees eerst de vereisten:
-
--> Requirements.md
-  
-Volg daarna het stappenplan:
-
--> docs/stappenplan_snyk_tool.md
-
-Screenshots en voorbeelden staan in:
-
--> docs/images/
-
 ## Wat wordt gescand
 
 ### Linux
@@ -138,6 +124,20 @@ Het project verschijnt vervolgens in het Snyk Dashboard.
 
 Zet je Snyk token nooit in GitHub repositories.
 Gebruik environment variables of secrets.
+
+## Aan de slag
+
+Lees eerst de vereisten:
+
+-> Requirements.md
+  
+Volg daarna het stappenplan:
+
+-> docs/stappenplan_snyk_tool.md
+
+Screenshots en voorbeelden staan in:
+
+-> docs/images/
 
 ## Licentie
 
