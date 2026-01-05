@@ -14,7 +14,7 @@ Dit stappenplan beschrijft hoe het Python script de Snyk tool installeert, koppe
 
 3. Kopieer je token en bewaar deze tijdelijk (nodig voor authenticatie)
 
-![Account_settings](Images/Account_Settings.png)
+![Account_settings](Images/Account_settings.png)
 
 ![Auth_Token](Images/Auth_Token.png)
 
