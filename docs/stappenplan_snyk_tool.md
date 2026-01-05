@@ -51,9 +51,9 @@ Het script voert automatisch uit:
 1. Ga naar je Snyk account
 2. Open het aangemaakte project
 
-![Projecten](Images/Projecten.png)
+![projecten](Images/projecten.png)
 
-![Dashboard](Images/Dashboard.png)
+![dashboard](Images/dashboard.png)
 
 3. Hier zie je:
    - Kwetsbaarheden
