@@ -133,6 +133,7 @@ Het project verschijnt vervolgens in het Snyk Dashboard.
 ## Aan de slag
 
 Voordat je gaat beginnen heb je een paar dingen nodig:
+
 0. Openen van terminal met administrator rechten
   Zorg ervoor dat je een terminal opent op je computer met administratie rechten.
   
@@ -153,6 +154,7 @@ Voordat je gaat beginnen heb je een paar dingen nodig:
 
 - Wanneer je meer wilt weten wat er met je informatie wordt gedaan door Snyk kan je de documentatie bekijken en voor jezelf oordelen of je het vertrouwt of niet. <a href="https://docs.snyk.io/snyk-data-and-governance/how-snyk-handles-your-data">Link naar documentatie</a>
 
+## Hoe kan ik het script draaien?
 Download de Python Script:
 
 `Zie snyk-installer.py`
