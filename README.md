@@ -132,6 +132,27 @@ Het project verschijnt vervolgens in het Snyk Dashboard.
 
 ## Aan de slag
 
+Voordat je gaat beginnen heb je een paar dingen nodig:
+0. Openen van terminal met administrator rechten
+  Zorg ervoor dat je een terminal opent op je computer met administratie rechten.
+  
+1. Node.js
+  Dit is een manier van code lezen voor jouw computer. Dit heb je dus ook nodig voor als je het script wilt gaan draaien.
+2. Snyk account
+  Dit is de tool die wij gebruiken. Hier heb je een account voor nodig. Wanneer je het account hebt krijg je een token die aan je account staat gelinkt.
+3. Installeren van het script
+  Hier ga je het script downloaden wat wij in de github hebben staan `snyk-installer.py`
+4. Het script moet nu uitgevoerd worden
+  Om het script uit te kunnen voeren gebruik je het 'pad' naar het script met `--token [hier jouw account token]`
+5. Kiezen van optie
+  Hier kies je een optie. Je kiest 1 als je snyk nog niet gebruikt heb. Je kiest 2 als je het al een keer gebruikt heb.
+6. Open account
+  Zoek online naar snyk dashboard. Hier moet je vervolgens inloggen. Wanneer dit gedaan is ga je naar projects en vervolgens kan je hier je vulnerabilities vinden en hoe je het moet oplossen.
+
+## Disclaimer
+
+- Wanneer je meer wilt weten wat er met je informatie wordt gedaan door Snyk kan je de documentatie bekijken en voor jezelf oordelen of je het vertrouwt of niet. <a href="https://docs.snyk.io/snyk-data-and-governance/how-snyk-handles-your-data">Link naar documentatie</a>
+
 Download de Python Script:
 
 `Zie snyk-installer.py`
